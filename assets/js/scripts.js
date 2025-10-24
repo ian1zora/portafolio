@@ -1,7 +1,4 @@
 window.addEventListener("load", () => {
-    const preloader = document.getElementById("preloader");
-    setTimeout(() => {
-      preloader.classList.add("hidden");
-    }, 10);
+    document.getElementById("preloader").classList.add("hidden");
   });
   
