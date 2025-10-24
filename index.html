@@ -8,102 +8,79 @@
   <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
+  <main class="flyer">
 
-  <!-- 🔹 PRELOADER -->
-  <div id="preloader">
-    <div class="pixel-loader"></div>
-    <p>Cargando...</p>
-  </div>
+    <header class="flyer-header">
+      <h1 class="title">PORTAFOLIO</h1>
+      <p class="subtitle">مفتوح الطلبات</p>
+    </header>
 
-  <div class="background-blobs">
-    <div class="blob"></div>
-    <div class="blob delay"></div>
-  </div>
-
-  <main>
-
-    <!-- 🧍 PRESENTACIÓN -->
-    <section class="hero">
-      <h1 class="pixel-title">Ian Steinmeyer</h1>
-      <p class="pixel-subtitle">Frontend Developer & Diseñador Web</p>
-      <a href="#portfolio" class="scroll-down">⬇ Ver portafolio</a>
+    <section class="intro">
+      <div class="avatar">
+        <img src="assets/img/foto.jpg" alt="Avatar" />
+      </div>
+      <div class="procedure">
+        <h2>Sobre mí</h2>
+        <p>Soy un desarrollador y diseñador web me especializo en el frontend y un poco en las base de datos, soy de lo mas puntual que vas a conocer en la vida.</p>
+      </div>
     </section>
 
-    <!-- 🗂️ PORTAFOLIO -->
-    <section id="portfolio" class="flyer">
-      <header class="flyer-header">
-        <h1 class="title">PORTAFOLIO</h1>
-        <p class="subtitle">مفتوح الطلبات</p>
-      </header>
-
-      <section class="intro">
-        <div class="avatar">
-          <img src="assets/img/foto.jpg" alt="Avatar" />
-        </div>
-        <div class="procedure">
-          <h2>Sobre mí</h2>
-          <p>Soy un desarrollador y diseñador web especializado en frontend, con experiencia en PHP y Python.</p>
-        </div>
-      </section>
-
-      <section class="info-grid">
-        <div class="box can">
-          <h3>PUEDO HACER</h3>
-          <ul>
-            <li>Diseño web</li>
-            <li>Frontend con HTML / CSS / JS</li>
-            <li>Proyectos PHP y Python</li>
-          </ul>
-        </div>
-        <div class="box cant">
-          <h3>NO PUEDO HACER</h3>
-          <ul>
-            <li>Diseño 3D</li>
-            <li>Contenido NSFW</li>
-            <li>hackear al pentágono</li>
-          </ul>
-        </div>
-        <div class="box terms">
-          <h3>INFO</h3>
-          <p>🌐 Basado en Buenos Aires<br>
-            🕐 Entregas puntuales<br>
-            💬 Contacto: <a href="mailto:ianeest04@gmail.com">ianeest04@gmail.com</a></p>
-        </div>
-      </section>
-
-      <section class="prices">
-        <h2>Proyectos Destacados</h2>
-        <div class="cards">
-          <a href="https://datasnap.escuelarobertoarlt.com" target="_blank" class="card">
-            <img src="assets/img/logo.svg" alt="Proyecto 1">
-            <h4>Datasnap</h4>
-            <p>Optimizador de base de datos con IA</p>
-          </a>
-          <a href="https://mattprofe.com.ar/cfp/meega/Views/HTML/landing.html" target="_blank" class="card">
-            <img src="assets/img/meega.svg" alt="Proyecto 2">
-            <h4>Meega</h4>
-            <p>Módulo Estudiantil de Estadísticas y Gestión</p>
-          </a>
-          <a href="https://store.steampowered.com/app/787480/Phoenix_Wright_Ace_Attorney_Trilogy/" target="_blank" class="card">
-            <img src="assets/img/bull.png" alt="Proyecto 3">
-            <h4>Bull Attorney</h4>
-            <p>Fan project inspirado en Ace Attorney</p>
-          </a>
-        </div>
-      </section>
-
-      <footer class="footer">
-        <p>© 2025 Ian Steinmeyer — Hecho con café ☕</p>
-      </footer>
+    <section class="info-grid">
+      <div class="box can">
+        <h3>PUEDO HACER</h3>
+        <ul>
+          <li>Diseño web</li>
+          <li>Frontend con HTML / CSS / JS</li>
+          <li>Proyectos PHP y Python</li>
+        </ul>
+      </div>
+      <div class="box cant">
+        <h3>NO PUEDO HACER</h3>
+        <ul>
+          <li>Diseño 3D</li>
+          <li>Contenido NSFW</li>
+          <li>hackear al pentagono</li>
+        </ul>
+      </div>
+      <div class="box terms">
+        <h3>INFO</h3>
+        <p>🌐 Basado en Buenos Aires<br>
+           🕐 Entregas puntuales<br>
+           💬 Contacto: <a href="mailto:ianeest04@gmail.com">ianeest04@gmail.com</a></p>
+      </div>
     </section>
 
-    <!-- 🚂 SECCIÓN FINAL -->
-    <section class="trenor">
-      <img src="assets/img/trenor.gif" alt="Trenor" />
+    <section class="prices">
+      <h2>Proyectos Destacados</h2>
+      <div class="cards">
+        <div class="card">
+            <a href="https://datasnap.escuelarobertoarlt.com" target="_blank" class="card">
+                <img src="assets/img/logo.svg" alt="Proyecto 1">
+                <h4>Datasnap</h4>
+                <p>Optimizador de base de datos con ia</p>
+              </a>
+        </div>
+        <div class="card">
+            <a href="https://mattprofe.com.ar/cfp/meega/Views/HTML/landing.html" target="_blank" class="card">
+                <img src="assets/img/meega.svg" alt="Proyecto 1">
+                <h4>Meega</h4>
+                <p>Módulo Estudiantil de Estadisticas y Gestion</p>
+              </a>
+        </div>
+        <div class="card">
+            <a href="https://store.steampowered.com/app/787480/Phoenix_Wright_Ace_Attorney_Trilogy/" target="_blank" class="card">
+                <img src="assets/img/bull.png" alt="Proyecto 1">
+                <h4>Meega</h4>
+                <p>Módulo Estudiantil de Estadisticas y Gestion</p>
+              </a>
+        </div>
+      </div>
     </section>
+
+    <footer class="footer">
+      <p>© 2025 Ian Steinmeyer — Hecho con café ☕</p>
+    </footer>
 
   </main>
-
-  <script src="assets/js/script.js"></script>
 </body>
 </html>
