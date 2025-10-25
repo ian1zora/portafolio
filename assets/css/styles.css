@@ -84,12 +84,15 @@ body {
 }
 
 .box.cant {
-  background: #f5dcdc;
+  background: #e7c9c9;
 }
 
 .box.terms {
   background: #f5f1dc;
 }
+.box.info {
+    background: #f5f1dc;
+  }
 
 .box h3 {
   font-family: 'Archivo Black', sans-serif;
